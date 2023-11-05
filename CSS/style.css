@@ -58,9 +58,6 @@ nav ul {
     background-color: #3a3e3d;
     width: 100%;
 
-
-
-
 }
 
 
@@ -95,18 +92,12 @@ nav ul {
     padding-left: 20px;
     background-color: #00c9e7;
     color: white;
-    outline: 1px solid orange;
-
-
-
-
+    /* outline: 1px solid orange; */
 }
 
 
 .image-section {
     /*  flex: 1; */
-
-
     margin-bottom: -3px;
     margin-top: -15px;
 }
@@ -226,4 +217,36 @@ button {
 .project {
     margin: 10px;
     padding: 10px;
+}
+
+
+/* STEP 6 */
+
+/* Mobile Media Query */
+@media screen and (max-width: 600px) {
+    /* My UX Skills Section for Mobile */
+    .mySkills {
+        display: flex;
+        flex-direction: column; /* Change to column for mobile */
+    }
+    
+    .skill {
+        width: 100%; /* Take up 100% width on mobile */
+    }
+
+    /* My Work Section for Mobile */
+    .myWork {
+        display: grid;
+        grid-template-rows: auto; /* Adjust rows for mobile */
+        grid-template-columns: 100%; /* Adjust columns for mobile */
+        grid-template-areas:
+            "project1"
+            "project2"
+            "view-all";
+    }
+
+    .project {
+        margin: 10px; /* Adjust margins as needed for mobile */
+        padding: 10px; /* Adjust padding as needed for mobile */
+    }
 }
