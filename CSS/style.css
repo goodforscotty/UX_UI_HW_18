@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 header {
     /* display: flex; */
     /*  background-color: #3a3e3d; */
@@ -12,16 +13,20 @@ header {
     /* justify-content: space-between;*/
 }
 
+
 .topLogoSection {
     display: flex;
     justify-content: space-between;
 
+
 }
+
 
 .logo-container {
     align-self: flex-start;
     padding: 10px
 }
+
 
 .logo-container-TopList ul {
     list-style: none;
@@ -30,9 +35,12 @@ header {
     justify-content: flex-end;
 }
 
+
 .logo-container-TopList li {
     margin-right: 20px;
 }
+
+
 
 
 nav ul {
@@ -42,6 +50,7 @@ nav ul {
     flex-direction: column; */
 }
 
+
 .container {
     display: flex;
     /*   justify-content: space-around; */
@@ -50,11 +59,15 @@ nav ul {
     width: 100%;
 
 
+
+
 }
+
 
 .column {
     padding: 0px;
 }
+
 
 .column-one {
     width: 25%;
@@ -62,51 +75,63 @@ nav ul {
     padding-left: 0px;
 }
 
+
 .column-two {
     width: 75%;
     background-color: #00c9e7;
     /* outline: 1px solid red;*/
 }
 
+
 .hero-section {
     display: flex;
 
+
 }
 
+
 .text-section {
-    padding-top: 30px;
+    padding-top: 80px;
     padding-left: 20px;
     background-color: #00c9e7;
     color: white;
+    outline: 1px solid orange;
+
+
 
 
 }
 
+
 .image-section {
     /*  flex: 1; */
+
 
     margin-bottom: -3px;
     margin-top: -15px;
 }
 
+
 h1 {
     margin: 0;
 }
+
 
 p {
     color: #3a3e3d;
 }
 
+
 img {
     max-width: 100%;
 }
 
+
 footer {
     background-color: #00c9e7;
     text-align: center;
-
-
 }
+
 
 button {
     background-color: #3a3e3d;
@@ -117,6 +142,7 @@ button {
     margin-top: 10px;
 }
 
+
 .paragraph-section {
     background-color: white;
     /*   display: flex;
@@ -124,11 +150,13 @@ button {
     padding: 20px;
 }
 
+
 .paragraph-section p {
     background-color: white;
     padding: 10px;
     margin: 0;
 }
+
 
 .footer-content {
     display: flex;
@@ -138,12 +166,64 @@ button {
     justify-content: center;
 }
 
+
 .footer-list {
     list-style: none;
     padding: 0;
     text-align: center;
 }
 
+
 .footer-list li {
     margin: 5px 0;
+}
+
+
+/* Start of Homework 18 */
+
+
+.mySkills {
+    display: flex;
+    color: #3a3e3d;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.skill {
+    width: 33%;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+
+.myWork {
+    display: grid;
+    color: #3a3e3d;
+    grid-template-columns: 1fr;
+    /* outline: 1px solid red; */
+}
+
+
+.workGrid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    /* outline: 1px solid orange; */
+}
+
+
+.project {
+    margin: 10px;
+    padding: 10px;
 }
