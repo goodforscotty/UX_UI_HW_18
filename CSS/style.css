@@ -6,11 +6,10 @@ body {
 
 
 header {
-    /* display: flex; */
-    /*  background-color: #3a3e3d; */
+
     padding: 20px;
     align-items: center;
-    /* justify-content: space-between;*/
+
 }
 
 
@@ -46,14 +45,12 @@ header {
 nav ul {
     list-style: none;
     padding: 20px;
-    /*  display: flex;
-    flex-direction: column; */
+
 }
 
 
 .container {
     display: flex;
-    /*   justify-content: space-around; */
     color: white;
     background-color: #3a3e3d;
     width: 100%;
@@ -68,7 +65,7 @@ nav ul {
 
 .column-one {
     width: 25%;
-    /* background-color: #3a3e3d; */
+
     padding-left: 0px;
 }
 
@@ -97,7 +94,7 @@ nav ul {
 
 
 .image-section {
-    /*  flex: 1; */
+
     margin-bottom: -3px;
     margin-top: -15px;
 }
@@ -136,8 +133,6 @@ button {
 
 .paragraph-section {
     background-color: white;
-    /*   display: flex;
-    justify-content: space-between;*/
     padding: 20px;
 }
 
@@ -178,14 +173,14 @@ button {
     color: #3a3e3d;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
 
 .flexContainer {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 
@@ -193,7 +188,7 @@ button {
     width: 33%;
     margin: 10px;
     padding: 10px;
-   
+
 }
 
 
@@ -220,33 +215,71 @@ button {
 }
 
 
-/* STEP 6 */
+/* STEP 6 - Mobile Media Query */
 
-/* Mobile Media Query */
 @media screen and (max-width: 600px) {
-    /* My UX Skills Section for Mobile */
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: #3a3e3d;
+        width: 100%;
+
+    }
+
+
+    .column {
+        padding: 0px;
+    }
+
+    .column-one {
+        width: 100%;
+    }
+
+
+    .column-two {
+        width: 100%;
+        background-color: #00c9e7;
+
+    }
+
+    nav ul {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .text-section {
+        padding-top: 40px;
+        padding-left: 20px;
+        background-color: #00c9e7;
+        color: white;
+        /* outline: 1px solid orange; */
+    }
+
     .mySkills {
         display: flex;
-        flex-direction: column; /* Change to column for mobile */
-    }
-    
-    .skill {
-        width: 100%; /* Take up 100% width on mobile */
+        flex-direction: column;
     }
 
-    /* My Work Section for Mobile */
+    .skill {
+        width: 100%;
+    }
+
+
     .myWork {
         display: grid;
-        grid-template-rows: auto; /* Adjust rows for mobile */
-        grid-template-columns: 100%; /* Adjust columns for mobile */
-        grid-template-areas:
-            "project1"
+        grid-template-rows: auto;
+        grid-template-columns:
+            grid-template-areas: "project1"
             "project2"
             "view-all";
     }
 
     .project {
-        margin: 10px; /* Adjust margins as needed for mobile */
-        padding: 10px; /* Adjust padding as needed for mobile */
+        margin: 10px;
+        padding: 10px;
     }
 }
