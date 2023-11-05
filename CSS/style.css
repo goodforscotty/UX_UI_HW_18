@@ -51,7 +51,7 @@ nav ul {
 
 .container {
     display: flex;
-    color: white;
+    color: #F2F2F2;
     background-color: #3a3e3d;
     width: 100%;
 
@@ -88,7 +88,7 @@ nav ul {
     padding-top: 80px;
     padding-left: 20px;
     background-color: #00c9e7;
-    color: white;
+    color: #F2F2F2;
     /* outline: 1px solid orange; */
 }
 
@@ -123,7 +123,7 @@ footer {
 
 button {
     background-color: #3a3e3d;
-    color: white;
+    color: #F2F2F2;
     border: none;
     padding: 10px 20px;
     border-radius: 25px;
@@ -132,13 +132,13 @@ button {
 
 
 .paragraph-section {
-    background-color: white;
+    background-color: #F2F2F2;
     padding: 20px;
 }
 
 
 .paragraph-section p {
-    background-color: white;
+    background-color: #F2F2F2;
     padding: 10px;
     margin: 0;
 }
@@ -222,7 +222,7 @@ button {
     .container {
         display: flex;
         flex-direction: column;
-        color: white;
+        color: #F2F2F2;
         background-color: #3a3e3d;
         width: 100%;
 
@@ -255,7 +255,7 @@ button {
         padding-top: 40px;
         padding-left: 20px;
         background-color: #00c9e7;
-        color: white;
+        color: #F2F2F2;
         /* outline: 1px solid orange; */
     }
 
